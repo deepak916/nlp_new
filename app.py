@@ -15,7 +15,7 @@ import pickle
 import numpy as np
 
 
-cv = pickle.load(open('/home/deepak-vlit/Desktop/home/Thesis_Files/nlp/nlp_project/cv.pkl', 'rb'))
+cv = pickle.load(open('cv.pkl', 'rb'))
 
 
 def preprocess(q):
@@ -339,7 +339,7 @@ import streamlit as st
 #import helper
 import pickle
 
-model = pickle.load(open('/home/deepak-vlit/Desktop/home/Thesis_Files/nlp/nlp_project/model.pkl', 'rb'))
+model = pickle.load(open('model.pkl', 'rb'))
 
 st.header('Welcome to App for Duplicate Question Pairs')
 
