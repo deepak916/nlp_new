@@ -9,6 +9,8 @@ Created on Wed Jun 15 01:29:10 2022
 import re
 from bs4 import BeautifulSoup
 from nltk.corpus import stopwords
+import nltk
+nltk.download('stopwords')
 import distance
 from fuzzywuzzy import fuzz
 import pickle
