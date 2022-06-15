@@ -4,6 +4,4 @@ nltk
 fuzzywuzzy
 distance
 bs4
-nltk.corpus
-nltk.corpus.stopwords
 stopwords
